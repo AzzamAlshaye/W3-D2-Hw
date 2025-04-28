@@ -114,15 +114,20 @@ body {
   width: 95vw;
 }
 .item1 {
-  height: 80%;
-  width: 100%;
+  height: 70vh;
+  width: 98%;
   grid-row: 1/3;
-
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  border: 0.05rem solid #ddd;
+  background-color: #f7f7f7;
+}
+.item1-image {
+  width: 100%;
+  height: 40vh;
 }
 .story {
   /* border: 5px solid rgb(234, 255, 0); */
@@ -161,13 +166,35 @@ body {
 }
 .item2 {
   /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 70%;
+  background-color: #f7f7f7;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  border: 0.05rem solid #ddd;
+}
+.item2-image {
+  /* border: rgb(255, 255, 255) solid 2px; */
 
-  width: 83%;
+  height: 30vh;
 }
 .item2-content {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  height: 15vh;
+  /* border: pink 2px solid; */
+  justify-content: center;
+  align-items: center;
+}
+.story-item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 6vw;
+  width: 96%;
+  /* background-color: beige; */
 }
 .item3 {
   box-shadow: 5px 5px 5px rgb(128, 127, 127);
@@ -198,7 +225,7 @@ body {
 .item4 {
   grid-row: 3 / 6;
   height: 60vh;
-  width: 100%;
+  width: 98%;
   text-align: center;
   display: flex;
   flex-direction: column;
