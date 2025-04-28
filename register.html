@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MY BLOG</title>
+    <title>Log-in</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,22 +18,22 @@
         </div>
 
         <div class="header-btn">
-          <button class="btn">Register</button>
-          <button class="btn btn-login">Login</button>
+          <a href="register.html"><button class="btn">Register</button></a>
+          <a href="login.html"><button class="btn btn-login">Login</button></a>
         </div>
       </header>
     </section>
     <section>
-      <div class="register-wrapper">
-        <div class="register-main">
-          <h2>Create Your Account</h2>
+      <div class="account-hero">
+        <div class="account-header">
+          <h1>Create Your Account</h1>
           <p>Join us today and get started!</p>
         </div>
         <div class="register-card">
           <div class="register-inner-div">
             <form class="register-form" action="#" method="get">
-              <div class="input-field">
-                <label class="field-label" for="username">user name</label>
+              <div class="input-div">
+                <label class="field-label" for="username">username</label>
                 <input
                   type="text"
                   name="username"
@@ -41,7 +41,7 @@
                   class="register-fields"
                 />
               </div>
-              <div class="input-field">
+              <div class="input-div">
                 <label class="field-label" for="email">email</label>
                 <input
                   type="email"
@@ -50,7 +50,7 @@
                   class="register-fields"
                 />
               </div>
-              <div class="input-field">
+              <div class="input-div">
                 <label class="field-label" for="password">password</label>
                 <input
                   type="password"
@@ -59,7 +59,7 @@
                   class="register-fields"
                 />
               </div>
-              <div class="input-field">
+              <div class="input-div">
                 <label class="field-label" for="username"
                   >confirm password</label
                 >
@@ -71,7 +71,16 @@
                 />
               </div>
             </form>
-            <button type="submit" class="btn btn-large-size">Register</button>
+            <div class="register-btn-area">
+              <a href="#"
+                ><button class="btn btn-large-size">Register</button></a
+              >
+              <a href="index.html"
+                ><button class="btn btn-large-size btn-login">
+                  Back to Home
+                </button></a
+              >
+            </div>
           </div>
         </div>
       </div>
