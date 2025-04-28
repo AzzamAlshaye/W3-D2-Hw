@@ -190,7 +190,7 @@ body {
   border: 0.05rem solid #ddd;
 }
 .item2-image {
-  height: 45vh;
+  height: 30vh;
 }
 .item2-content {
   display: flex;
@@ -278,6 +278,7 @@ body {
   gap: 12px;
   flex-wrap: wrap;
   width: 90%;
+  height: 8vh;
 }
 
 .tags {
