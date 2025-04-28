@@ -104,10 +104,16 @@ body {
 
 /* header end */
 
+.hero-section {
+  height: 170vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
 /* article start */
 .content {
-  /* border: 1px solid red; */
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +151,6 @@ body {
   width: 95%;
 }
 .more-info {
-  /* border: 5px solid rgb(255, 0, 204); */
   height: 8vh;
   width: 95%;
   display: flex;
@@ -159,7 +164,6 @@ body {
   gap: 5px;
   width: 15%;
   font-weight: 700;
-  /* border: 5px solid rgb(93, 0, 255); */
 }
 .Comments a {
   background-color: black;
@@ -186,15 +190,13 @@ body {
   border: 0.05rem solid #ddd;
 }
 .item2-image {
-  /* border: rgb(255, 255, 255) solid 2px; */
-
-  height: 30vh;
+  height: 45vh;
 }
 .item2-content {
   display: flex;
   flex-direction: column;
   height: 15vh;
-  /* border: pink 2px solid; */
+
   justify-content: center;
   align-items: center;
 }
@@ -204,7 +206,6 @@ body {
   justify-content: space-between;
   height: 6vw;
   width: 96%;
-  /* background-color: beige; */
 }
 .item3 {
   width: 80%;
@@ -217,26 +218,24 @@ body {
 }
 .Popular-header-div {
   height: 8vh;
-  /* border: 5px solid rgb(93, 0, 255); */
+
   background-color: #eae7e7;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .Popular-header {
-  /* border: solid pink 2px; */
   font-weight: 700;
   width: 96%;
 }
 .Posts {
   display: flex;
-  /* border: 5px solid rgb(93, 0, 255); */
+
   align-items: center;
   justify-content: space-around;
   height: 10vh;
 }
 .post-title {
-  /* border: 5px solid rgb(93, 0, 255); */
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -269,7 +268,7 @@ body {
 }
 .tags-area {
   display: flex;
-  /* border: 5px solid rgb(93, 0, 255); */
+
   align-items: center;
   justify-content: space-around;
   height: 10vh;
@@ -296,8 +295,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px; /* Keeps the gap between the sections */
-  /* border: red solid 2px; */
+  gap: 5px;
 }
 
 .account-header {
@@ -305,7 +303,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  /* border: pink 2px solid; */
+
   height: 10vh;
   width: 30%;
 }
@@ -356,7 +354,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* border: yellow solid 2px; */
+
   height: 55vh;
   width: 60%;
 }
@@ -381,7 +379,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: pink 2px solid; */
+
   height: 30vh;
 }
 
@@ -407,7 +405,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* border: purple 2px solid; */
+
   height: 20vh;
   width: 100%;
   gap: 20px;
@@ -426,7 +424,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* border: yellow solid 2px; */
+
   height: 35vh;
   width: 60%;
 }
@@ -451,7 +449,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: pink 2px solid; */
+
   height: 14vh;
 }
 /* login page end */
