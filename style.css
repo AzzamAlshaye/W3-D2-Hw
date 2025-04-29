@@ -244,11 +244,9 @@ body {
 .popular-header {
   font-weight: 700;
   font-size: 1.1rem;
-  padding: 10px 0; /* Add padding instead of div */
-  margin: -20px -20px 15px -20px; /* Adjust margins to fill width, add bottom space */
-  background-color: #f8f8f8; /* Light background for header */
+  padding: 12px 0; /* Add padding instead of div */
+
   text-align: center;
-  border-bottom: 1px solid #eee;
 }
 
 .post {
@@ -560,11 +558,11 @@ label {
 /* Example: */
 .account-hero {
   /* Styles for the container on register/login pages */
-  padding: 30px 15px;
+  padding: 1px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* Space between header and card */
+  gap: 2px; /* Space between header and card */
 }
 
 .account-header {
