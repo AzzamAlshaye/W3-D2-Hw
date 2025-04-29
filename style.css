@@ -11,7 +11,6 @@ body {
 }
 /* header css start */
 .header-section {
-  height: 20vh;
   width: 99%;
   display: flex;
   flex-direction: column;
@@ -127,7 +126,7 @@ body {
 .item1 {
   width: 98%;
   grid-row: 1/2;
-
+  height: 80vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -142,7 +141,7 @@ body {
 }
 .story {
   /* border: 5px solid rgb(234, 255, 0); */
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
